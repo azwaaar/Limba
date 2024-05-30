@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Limba</string>
+
+    <array name="image_menu">
+        <item>@drawable/add_file</item>
+        <item>@drawable/wallet</item>
+        <item>@drawable/folder</item>
+        <item>@drawable/file</item>
+        <item>@drawable/money_bag</item>
+    </array>
+
+    <string-array name="title_menu">
+        <item>Buat Order</item>
+        <item>Pembayaran</item>
+        <item>Riwayat\nLaporan</item>
+        <item>Riwayat\nDeposit</item>
+        <item>Harga Jasa</item>
+    </string-array>
+
+    <array name="image_deposit">
+        <item>@drawable/youngman</item>
+        <item>@drawable/younglady</item>
+        <item>@drawable/youngman</item>
+        <item>@drawable/younglady</item>
+        <item>@drawable/youngman</item>
+    </array>
+
+    <string-array name="time_deposit">
+        <item>Senin, 12 Maret 2024</item>
+        <item>Selasa, 13 Maret 2024</item>
+        <item>Rabu, 14 Maret 2024</item>
+        <item>Kamis, 15 Maret 2024</item>
+        <item>Jumat, 16 Maret 2024</item>
+    </string-array>
+
+    <string-array name="title_deposit">
+        <item>Plastik Botol</item>
+        <item>Masker Medis</item>
+        <item>Jarum Suntik Plastik</item>
+        <item>Tissue Basah</item>
+        <item>Jarum Suntik Plastik</item>
+    </string-array>
+
+    <string-array name="price_deposit">
+        <item>200.000</item>
+        <item>300.000</item>
+        <item>400.000</item>
+        <item>500.000</item>
+        <item>600.000</item>
+    </string-array>
+
+    <string-array name="status_deposit">
+        <item>Selesai</item>
+        <item>Pending</item>
+        <item>Driver Pickup</item>
+        <item>Dibatalkan</item>
+        <item>Selesai</item>
+    </string-array>
+
+    <string name="next">Next</string>
+    <string name="logo">logo</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="hint_username"><i>ex: azwaaar</i></string>
+    <string name="hint_email"><i>ex: abcde@gmail.com</i></string>
+    <string name="hint_password"><i>●●●●●●</i></string>
+    <string name="hint_company">PT. XYZ</string>
+    <string name="hint_waste">Produksi limbah perbulan</string>
+    <string name="hint_provinsi">ex: Jawa barat</string>
+    <string name="hint_city">ex: Depok</string>
+    <string name="hint_zip_code">ex: 12345</string>
+    <string name="hint_location_transportation">Jl. Margonda raya</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_init">Init steps</string>
+    <string name="hint_selected_circle_color">Selected circle color</string>
+    <string name="hint_selected_text_color">Selected text color</string>
+    <string name="main_list_item_simple_title">Simple</string>
+    <string name="main_list_item_simple_subtitle">StepView inside ConstrainLayout</string>
+    <string name="main_list_item_recyclerview_title">RecyclerView</string>
+    <string name="main_list_item_recyclerview_subtitle">StepView inside RecyclerView</string>
+    <string name="main_list_item_scrollview_title">ScrollView</string>
+    <string name="main_list_item_scrollview_subtitle">StepView inside ScrollView</string>
+    <string name="main_list_item_customise_title">Customise</string>
+    <string name="main_list_item_customise_subtitle">Customise StepView</string>
+    <string name="main_list_item_rtl_title">RTL</string>
+    <string name="main_list_item_rtl_subtitle">An example with Arabic language \n(You need to force RTL or select RTL locale in order to see the effect)</string>
+    <string name="main_list_item_delayed_init_title">Delayed init</string>
+    <string name="main_list_item_delayed_init_subtitle">An example to test a behavior after a view is laid out.</string>
+
+    <string name="dummy_text">Performance profilers
+Android Studio provides performance profilers so you can more easily track your app’s memory and CPU usage, find deallocated objects, locate memory leaks, optimize graphics performance, and analyze network requests. With your app running on a device or emulator, open the Android Profiler tab.
+
+For more information about performance profilers, see Performance profiling tools.
+
+
+Heap dump
+When you’re profiling memory usage in Android Studio, you can simultaneously initiate garbage collection and dump the Java heap to a heap snapshot in an Android-specific HPROF binary format file. The HPROF viewer displays classes, instances of each class, and a reference tree to help you track memory usage and find memory leaks.
+
+For more informatin about working with heap dumps, see Inspect the heap and allocations.
+
+
+Memory Profiler
+You can use Memory Profiler to track memory allocation and watch where objects are being allocated when you perform certain actions. Knowing these allocations enables you to optimize your app’s performance and memory use by adjusting the method calls related to those actions.
+
+For information about tracking and analyzing allocations, see Inspect the heap and allocations.
+
+
+Data file access
+The Android SDK tools, such as Systrace, and logcat, generate performance and debugging data for detailed app analysis.
+
+To view the available generated data files, open the Captures tool window. In the list of the generated files, double-click a file to view the data. Right-click any .hprof files to convert them to the standard Investigate your RAM usage file format.
+
+
+Code inspections
+Whenever you compile your program, Android Studio automatically runs configured Lint and other IDE inspections to help you easily identify and correct problems with the structural quality of your code.
+
+The Lint tool checks your Android project source files for potential bugs and optimization improvements for correctness, security, performance, usability, accessibility, and internationalization.</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="next_circle_enabled">Enable next circle</string>
+    <string name="hint_next_circle_color">Next circle color</string>
+    <string name="desc_reg_one">Isi informasi pribadi Anda disini untuk menggunakan aplikasi super kami.</string>
+    <string name="desc_reg_two">Centang kotak, jika Anda memiliki perusahaan dan isi informasi perusahaan Anda.</string>
+    <string name="desc_reg_three">Periksa dan konfirmasi akun Anda. Kirim jika sudah benar</string>
+    <string name="detail_user">Detail Pengguna</string>
+    <string name="detail_company">Detail Perusahaan</string>
+    <string name="confirmation">Konfirmasi</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="company_name">Nama Perusahaan</string>
+    <string name="waste_production">Produksi Limbah</string>
+    <string name="transportation_location">Lokasi Pengangkutan</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="city">Kabupaten/Kota</string>
+    <string name="zip_code">Kode Pos</string>
+    <string name="email">Email</string>
+    <string name="phone">Nomor Telepon</string>
+    <string name="desc_company_two">Periksa apakah anda memiliki perusahaan</string>
+    <string name="select_location">Pilih Lokasi</string>
+    <string name="otp"><![CDATA[<font color="#a3a3a3">We will send you an</font> <font color="#000000">One Time Password</font> <font color="#a3a3a3">on this mobile number</font>]]></string>
+    <string name="otp1"><![CDATA[<font color="#a3a3a3">Enter OTP send to </font> <font color="#000000">+91-9876-564-656</font>]]></string>
+    <string name="topup">Topup</string>
+    <string name="n_a">N/A</string>
+    <string name="idr">IDR</string>
+</resources>

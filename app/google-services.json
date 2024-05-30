@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "122531125348",
+    "project_id": "bitdatab3",
+    "storage_bucket": "bitdatab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122531125348:android:00bb944f7b19e7f170a771",
+        "android_client_info": {
+          "package_name": "id.co.bitdata.b3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn-KM7xqikfkoNhEsxMs0pmgei71pl1Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
